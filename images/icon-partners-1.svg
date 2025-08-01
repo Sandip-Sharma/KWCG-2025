@@ -1,0 +1,9 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="48" y="42" font-family="Manrope, sans-serif" font-size="28" font-weight="700" fill="#D93444">Cure</text>
+  
+  <text x="115" y="42" font-family="Manrope, sans-serif" font-size="28" font-weight="700" fill="#2A4B8D">PLUS</text>
+  
+  <path d="M42 52C28.7 52 20 40.5 20 28C20 15.5 28.7 4 42 4" stroke="#5D56F1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="38" cy="12" r="3" fill="#D93444"/>
+  <circle cx="45" cy="8" r="2" fill="#D93444"/>
+</svg>

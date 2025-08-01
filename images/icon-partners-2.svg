@@ -1,0 +1,17 @@
+<svg width="230" height="60" viewBox="0 0 230 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10, 8)">
+    <path d="M25 20C10 20 15 0 25 0C35 0 40 20 25 20Z" fill="#4DB6AC"/>
+    <path d="M15 25C5 25 0 5 15 5C20 5 20 25 15 25Z" fill="#4DB6AC"/>
+    <path d="M35 25C45 25 50 5 35 5C30 5 30 25 35 25Z" fill="#4DB6AC"/>
+    
+    <path d="M25 22C18 22 20 10 25 10C30 10 32 22 25 22Z" fill="#00897B"/>
+    <path d="M18 26C12 26 10 12 18 12C22 12 22 26 18 26Z" fill="#00897B"/>
+    <path d="M32 26C38 26 40 12 32 12C28 12 28 26 32 26Z" fill="#00897B"/>
+    
+    <circle cx="25" cy="25" r="3" fill="#B2DFDB"/>
+  </g>
+  
+  <text x="75" y="40" font-family="Poppins, Manrope, sans-serif" font-size="26" font-weight="600" fill="#00796B">
+    HealthVeda
+  </text>
+</svg>
