@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About KWCG - Web Development, SEO & Digital Marketing in Bardhaman">
+    <meta name="keywords" content="About KWCG, Web Development, Digital Marketing, SEO, UI/UX, Bardhaman">
+    <meta name="author" content="Awaiken">
+    <title>KWCG - About Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo KWCG.png">
+    <link rel="preconnect" href="../../fonts.googleapis.com/index.html">
+    <link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin>
+    <link href="../../fonts.googleapis.com/css2c021.css?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="css/all.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+
+    <style>
+        .footer-cta {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+            position: relative;
+        }
+
+        .footer-cta h3 {
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-cta h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .new-main-footer {
+            background-color: #1a2229;
+            color: #adb5bd;
+            padding-top: 80px;
+        }
+
+        .footer-widget .widget-logo {
+            margin-bottom: 25px;
+            max-width: 180px;
+        }
+
+        .footer-widget p {
+            margin-bottom: 20px;
+            color: #adb5bd;
+        }
+
+        .footer-widget .widget-title {
+            color: #fff;
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .footer-widget ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-widget ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-widget ul li a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-widget ul li a:hover {
+            color: #fff;
+            padding-left: 5px;
+        }
+
+        .footer-contact-info li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px !important;
+        }
+
+        .footer-contact-info i {
+            margin-right: 15px;
+            color: var(--primary-color);
+            margin-top: 5px;
+        }
+        
+        .footer-contact-info span, .footer-contact-info a {
+             color: #adb5bd;
+        }
+
+
+        .business-hours li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 10px;
+        }
+
+        .business-hours .day {
+            font-weight: 500;
+        }
+
+        .business-hours .closed {
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+
+        .footer-copyright-bar {
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 50px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-to-top-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            text-decoration: none;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .back-to-top-btn.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body class="tt-magic-cursor">
+
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/Logo KWCG.png" alt="Loading Icon"></div>
+        </div>
+    </div>
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>                               
+                            </ul>
+                        </div>
+                        <div class="header-btn d-inline-flex">
+                            <a href="contact-us.html" class="btn-default">free consultation</a>
+                        </div>
+                        </div>
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    
+    <div class="about-us">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">about Company</h3>
+                        <h2 class="text-anime-style-3">Websites That Tell Your Brand’s Story</h2>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="about-img">
+                            <figure class="image-anime reveal">
+                                <img src="images/about-us-img.jpg" alt="About KWCG Team">
+                            </figure>
+                        </div>
+                        <div class="about-consultation">
+                            <figure>
+                                <img src="images/about-circle.png" alt="Consultation Graphic">
+                            </figure>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">At KWCG, we believe in creating more than just websites—we create experiences that communicate your brand’s message effectively. Our designs are not only visually appealing but also functional, ensuring that your business stands out online.</p>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.5s"><b>Why Choose Us?</b><br>
+                            We are passionate about helping you stand out in the digital world with custom-built websites designed to suit your specific needs. Whether you are a startup or an established brand, we ensure that your website mirrors your values and goals.</p>
+                        
+                        
+                        <ul class="wow fadeInUp" data-wow-delay="1s">
+                            <li>Ease of Scalability</li>
+                            <li>Instant Impact</li>
+                            <li>Expertise and Experience</li>
+                            <li>Time Zone Aligned</li>
+                            <li>Full Flexibility</li>
+                            <li>Proactive Support</li>
+                        </ul>
+                        <p class="wow fadeInUp" data-wow-delay="0.75s"><b class="text-dark">Ready to Elevate Your Brand’s Online Presence?</b><br>
+                            Let KWCG build a website that tells your brand’s unique story and drives business growth. Get in touch with us today for a Free Consultation and take the first step toward a more impactful online presence.</p>
+
+
+                        <a href="contact-us.html" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us" style="background-color: #f8f9fa; padding: 100px 0;">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Consultancy With KWCG</h3>
+                        <h2 class="text-anime-style-3">A Modern Consulting Powerhouse</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">KWCG is built for a rapidly evolving world where ambition deserves expertise. Often recognised as the <strong>"common person’s Big Four"</strong>, we offer the strategic excellence of top-tier consulting firms while remaining grounded in accessibility, agility, and purpose.</p>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">Founded by Shri Khalid Wani, KWCG operates with a global presence and a hybrid delivery model. We work with governments, brands, startups, and entrepreneurs to unlock growth, drive transformation, and simplify complexity through clear, actionable strategies.</p>
+                        
+                        <p class="wow fadeInUp" data-wow-delay="0.75s"><b>Our Core Services Include:</b></p>
+                        <ul class="wow fadeInUp" data-wow-delay="1s">
+                            <li>Digital Strategy & Brand Development</li>
+                            <li>Business Intelligence & Data-Led Marketing</li>
+                            <li>Organisational & Transformation Consulting</li>
+                            <li>Mergers, Acquisitions & Sustainability Advisory</li>
+                            <li>Public Relations & Strategic Communications</li>
+                        </ul>
+                        
+                        <a href="/contact-us.html" target="_blank" class="btn-default wow fadeInUp" data-wow-delay="1.25s">Book an Meeting</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="about-consultation">
+                            <figure>
+                                <img src="images/about-circle.png" alt="Decorative Element">
+                            </figure>
+                        </div>
+                        <div class="about-img">
+                            <figure class="image-anime reveal">
+                                <img src="https://www.onlykashmir.in/wp-content/uploads/2023/09/Khalid-Wani-2.jpg" alt="KWCG Consulting">
+                            </figure>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="why-choose-us">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">why choose us</h3>
+                        <h2 class="text-anime-style-3">Why choose us ?</h2>
+                        <p>At <span class="text-dark">KWCG</span>, We are committed to delivering high-quality web development, digital marketing, and design solutions tailored to your business needs. Here’s why we stand out:</p>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="icon-box">
+                            <img src="images/icon-whyus-1.svg" alt="Innovation Icon">
+                        </div>
+                        <h3>innovation</h3>
+                        <p>We stay at the forefront of technology to bring innovative solutions to our clients. By embracing new trends and cutting-edge tools, we ensure your brand remains competitive in the digital landscape.</p>
+                    </div>
+                    </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="icon-box">
+                            <img src="images/icon-whyus-2.svg" alt="Quality Icon">
+                        </div>
+                        <h3>quality-focused</h3>
+                        <p>Our top priority is to deliver high-quality results. We ensure that every project we take on is executed with precision, attention to detail, and a focus on delivering excellence.</p>
+                    </div>
+                    </div>
+
+                <div class="col-lg-4">
+                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
+                        <div class="icon-box">
+                            <img src="images/icon-whyus-3.svg" alt="Value Icon">
+                        </div>
+                        <h3>value for money</h3>
+                        <p>We believe in providing outstanding services without breaking your budget. Our solutions offer excellent value, ensuring you get the best return on your investment.</p>
+                    </div>
+                    </div>
+
+               
+            </div>
+        </div>
+    </div>
+    <div class="exclusive-partners">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">executive partners</h3>
+                        <h2 class="text-anime-style-3">100+ Partners & supporters</h2>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/icon-partners-1.svg" alt="Partner Logo 1">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
+                        <img src="images/icon-partners-2.svg" alt="Partner Logo 2">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
+                        <img src="images/6.png" alt="Partner Logo 3">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
+                        <img src="images/7.png" alt="Partner Logo 4">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
+                        <img src="images/8.png" alt="Partner Logo 5">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.2s">
+                        <img src="images/9.png" alt="Partner Logo 6">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.4s">
+                        <img src="images/10.png" alt="Partner Logo 7">
+                    </div>
+                    </div>
+
+                <div class="col-lg-3 col-6">
+                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
+                        <img src="images/11.png" alt="Partner Logo 8">
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clients-testimonials">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-8 col-md-12">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">client testimonials</h3>
+                        <h2 class="text-anime-style-3">Our customers love us.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="testimonial-slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper" id="testimonial-swiper-wrapper">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="latest-news">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Latest Blog & Articles</h3>
+                        <h2 class="text-anime-style-3">The latest insights you need to know</h2>
+                    </div>
+                    </div>
+
+                <div class="col-lg-6 col-md-4">
+                    <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
+                        <a href="blog.html" class="btn-default">view all articles</a>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="row" id="latest-posts-container">
+                </div>
+        </div>
+    </div>
+    
+    <div class="footer-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h3>WE HELP YOU ON EVERY STEP OF THE JOURNEY</h3><br>
+                    <h2>Get Started Today. Boost Your Business With KWCG</h2>
+                    <a href="contact-us.html" class="btn-default">Get Started Today <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="new-main-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <a href="index.html"><img src="images/Logo KWCG.png" alt="KWCG Footer Logo" class="widget-logo" style="height: 100px; width: auto;"></a>
+                        <p>A modern consulting powerhouse built for a rapidly evolving world, where ambition deserves expertise.</p>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Brooklyn, New York</span>
+                            </li>
+                             <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@thekwcg.org">info@thekwcg.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Company</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Features</h2>
+                         <ul>
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">Digital Marketing</a></li>
+                            <li><a href="services.html">Mobile App Development</a></li>
+                            <li><a href="services.html">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Socials</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com/thekwcg/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/TheKWCG/" target="_blank">Facebook</a></li>
+                            <li><a href="https://x.com/thekwcg" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/company/thekwcg/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Business Hours</h2>
+                        <ul class="business-hours">
+                            <li><span class="day">Monday - Friday</span> <span>10:00 AM - 07:00 PM</span></li>
+                            <li><span class="day">Saturday</span> <span>10:00 AM - 04:00 PM</span></li>
+                            <li><span class="day">Sunday</span> <span class="closed">Closed</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright-bar">
+                <p>Copyright © <span id="current-year">2025</span> KWCG. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/function.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // --- Logic to load TESTIMONIALS ---
+            const testimonialsContainer = document.getElementById('testimonial-swiper-wrapper');
+            if (testimonialsContainer) {
+                fetch('customer.json')
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.json();
+                    })
+                    .then(testimonials => {
+                        let allTestimonialsHTML = '';
+                        testimonials.forEach(item => {
+                            allTestimonialsHTML += `
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-rating">
+                                            <img src="images/icon-star.svg" alt="Star rating">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p>${item.quote}</p>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <figure class="image-anime">
+                                                <img src="${item.image}" alt="Author ${item.name}">
+                                            </figure>
+                                            <div class="testimonial-author-title">
+                                                <h2>${item.name}</h2>
+                                                <p>${item.title}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        });
+                        testimonialsContainer.innerHTML = allTestimonialsHTML;
+                        
+                        // IMPORTANT: Initialize Swiper AFTER loading the slides
+                        new Swiper('.testimonial-slider .swiper', {
+                            loop: true,
+                            slidesPerView: 1,
+                            spaceBetween: 30,
+                             autoplay: { delay: 4000 },
+                            pagination: { el: '.swiper-pagination', clickable: true },
+                             breakpoints: {
+                                768: { slidesPerView: 2, spaceBetween: 30 },
+                                1024: { slidesPerView: 3, spaceBetween: 30 },
+                              },
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error fetching testimonials:', error);
+                        testimonialsContainer.innerHTML = '<p class="text-center col-12">Could not load testimonials.</p>';
+                    });
+            }
+
+            // --- Logic for dynamic blog posts ---
+            const postsContainer = document.getElementById('latest-posts-container');
+            if (postsContainer) {
+                fetch('blogs.json')
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.json();
+                    })
+                    .then(posts => {
+                        const latestPosts = posts.sort((a, b) => b.id - a.id).slice(0, 3);
+                        if (latestPosts.length > 0) {
+                            let allPostsHTML = '';
+                            latestPosts.forEach(post => {
+                                allPostsHTML += `
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="blog-item wow fadeInUp">
+                                            <div class="post-featured-image">
+                                                <figure class="image-anime">
+                                                    <a href="blog-single.html?id=${post.id}">
+                                                        <img src="${post.image}" alt="${post.title}">
+                                                    </a>
+                                                </figure>
+                                            </div>
+                                            <div class="post-item-body">
+                                                <p><a href="#">${post.date}</a></p>
+                                                <h2><a href="blog-single.html?id=${post.id}">${post.title}</a></h2>                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                `;
+                            });
+                            postsContainer.innerHTML = allPostsHTML;
+                        }
+                    })
+                    .catch(error => console.error('Error fetching latest posts:', error));
+            }
+
+            // --- Logic for dynamic footer year ---
+            const yearSpan = document.getElementById('current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+
+            // --- New Back to Top Button Logic ---
+            const backToTopButton = document.getElementById('back-to-top-btn');
+            if (backToTopButton) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('show');
+                    } else {
+                        backToTopButton.classList.remove('show');
+                    }
+                });
+
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

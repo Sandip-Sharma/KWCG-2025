@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Priya Sharma",
+        "title": "Founder of HealthVeda",
+        "quote": "Working with the team was a truly collaborative experience. They didn't just build a website; they brought our vision for HealthVeda to life. Their attention to detail and commitment to our brand's philosophy was evident in every step of the process. We couldn't be happier with the result.",
+        "image": "images/author-1.jpg",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Neha Singh",
+        "title": "CEO of Finwave",
+        "quote": "In the fintech world, user trust is paramount. The team delivered an incredibly secure and intuitive platform for Finwave that simplifies complex financial data. Their commitment to a flawless user experience and robust security has been fundamental to our launch success.",
+        "image": "images/author-2.jpg",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Sunita Patel",
+        "title": "Founder of Eveda",
+        "quote": "They didn't just create a logo; they captured the soul of Eveda. The branding and e-commerce platform they developed beautifully blends our traditional values with a modern aesthetic, allowing us to connect with a global audience. Our brand's story is now told perfectly through their design.",
+        "image": "images/author-3.jpg",
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "name": "Arjun Mehra",
+        "title": "CTO of Adeptag Solutions",
+        "quote": "As a technology company, we have very high standards. The team exceeded them, delivering a sleek, professional website that perfectly represents Adeptag Solutions. The process was efficient, collaborative, and the end result has significantly enhanced our corporate identity.",
+        "image": "images/author-4.jpg",
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "name": "Sameer Khan",
+        "title": "Co-founder of CurePLUS",
+        "quote": "In the healthcare space, clarity and trust are everything. The team designed an incredibly intuitive and accessible platform for CurePLUS that our patients find easy to navigate. Their focus on user experience has made a significant positive impact on our service delivery.",
+        "image": "images/author-5.jpg",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Karan Malhotra",
+        "title": "Founder of RaftarX",
+        "quote": "RaftarX is all about speed and performance, and we needed a brand identity that screamed energy. The team absolutely nailed it. The dynamic logo and website they designed have given us an aggressive, modern edge in the automotive market, and the feedback has been phenomenal.",
+        "image": "images/author-6.jpg",
+        "rating": 5
+    }
+]

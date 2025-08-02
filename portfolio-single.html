@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed view of KWCG projects. See our work in web development, marketing, and design.">
+    <meta name="keywords" content="KWCG, Portfolio, Project Details, Web Development Case Study">
+    <meta name="author" content="Awaiken">
+    <title>KWCG - Portfolio Details</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo KWCG.png">
+    <link rel="preconnect" href="../../fonts.googleapis.com/index.html">
+    <link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin>
+    <link href="../../fonts.googleapis.com/css2c021.css?family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="css/all.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+     <style>
+        .footer-cta {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+            position: relative;
+        }
+
+        .footer-cta h3 {
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-cta h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .new-main-footer {
+            background-color: #1a2229;
+            color: #adb5bd;
+            padding-top: 80px;
+        }
+
+        .footer-widget .widget-logo {
+            margin-bottom: 25px;
+            max-width: 180px;
+        }
+
+        .footer-widget p {
+            margin-bottom: 20px;
+            color: #adb5bd;
+        }
+
+        .footer-widget .widget-title {
+            color: #fff;
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .footer-widget ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-widget ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-widget ul li a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-widget ul li a:hover {
+            color: #fff;
+            padding-left: 5px;
+        }
+
+        .footer-contact-info li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px !important;
+        }
+
+        .footer-contact-info i {
+            margin-right: 15px;
+            color: var(--primary-color);
+            margin-top: 5px;
+        }
+        
+        .footer-contact-info span, .footer-contact-info a {
+             color: #adb5bd;
+        }
+
+
+        .business-hours li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 10px;
+        }
+
+        .business-hours .day {
+            font-weight: 500;
+        }
+
+        .business-hours .closed {
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+
+        .footer-copyright-bar {
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 50px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-to-top-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            text-decoration: none;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .back-to-top-btn.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body class="tt-magic-cursor">
+
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/Logo KWCG.png" alt="Loading Logo"></div>
+        </div>
+    </div>
+
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>                               
+                            </ul>
+                        </div>
+                        <div class="header-btn d-inline-flex">
+                            <a href="contact-us.html" class="btn-default">free consultation</a>
+                        </div>
+                    </div>
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" id="project-title-header">Loading Project...</h1>
+                        <nav class="wow fadeInUp" data-wow-delay="0.25s">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                                <li class="breadcrumb-item"><a href="portfolio.html">portfolio</a></li>
+                                <li class="breadcrumb-item active" aria-current="page" id="project-breadcrumb-category">Details</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-project-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="project-feature-image">
+                        <figure class="image-anime reveal">
+                            <img src="images/project-single.jpg" alt="Project Feature Image" id="project-feature-image">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="project-sidebar wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="about-project-box wow fadeInUp">
+                            <div class="project-info-box">
+                                <div class="project-icon"><img src="images/icon-date.svg" alt="Date Icon"></div>
+                                <p>Date</p>
+                                <h3 id="project-date">--</h3>
+                            </div>
+                            <div class="project-info-box">
+                                <div class="project-icon"><img src="images/icon-client.svg" alt="Client Icon"></div>
+                                <p>Client</p>
+                                <h3 id="project-client">--</h3>
+                            </div>
+                            <div class="project-info-box">
+                                <div class="project-icon"><img src="images/icon-website.svg" alt="Website Icon"></div>
+                                <p>Website</p>
+                                <h3><a href="#" id="project-website" target="_blank" rel="noopener noreferrer">--</a></h3>
+                            </div>
+                            <div class="project-info-box">
+                                <div class="project-icon"><img src="images/icon-location-1.svg" alt="Location Icon"></div>
+                                <p>Location</p>
+                                <h3 id="project-location">--</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="project-content">
+                        <div class="project-entry" id="project-details-content">
+                             <h2 class="wow fadeInUp" data-wow-delay="0.25s">Project Overview</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.5s" id="project-overview">Details are loading...</p>
+                            
+                            <h2 class="wow fadeInUp" data-wow-delay="1s">Project Summary</h2>
+                            <p class="wow fadeInUp" data-wow-delay="1.25s" id="project-summary">Details are loading...</p>
+
+                            <ul class="wow fadeInUp" data-wow-delay="1.5s" id="project-summary-points">
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-details-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                     <div class="project-gallery">
+                        <div class="project-gallery-items wow fadeInUp" data-wow-delay="0.25s" id="project-gallery-container">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h3>WE HELP YOU ON EVERY STEP OF THE JOURNEY</h3>
+                    <h2>Get Started Today. Boost Your Business With KWCG</h2>
+                    <a href="contact-us.html" class="btn-default">Get Started Today <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="new-main-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <a href="index.html"><img src="images/Logo KWCG.png" alt="KWCG Footer Logo" class="widget-logo" style="height: 100px; width: auto;"></a>
+                        <p>A modern consulting powerhouse built for a rapidly evolving world, where ambition deserves expertise.</p>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Brooklyn, New York</span>
+                            </li>
+                             <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@thekwcg.org">info@thekwcg.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Company</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Services</h2>
+                         <ul>
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">Digital Marketing</a></li>
+                            <li><a href="services.html">Mobile App Development</a></li>
+                            <li><a href="services.html">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Socials</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com/thekwcg/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/TheKWCG/" target="_blank">Facebook</a></li>
+                            <li><a href="https://x.com/thekwcg" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/company/thekwcg/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Business Hours</h2>
+                        <ul class="business-hours">
+                            <li><span class="day">Monday - Friday</span> <span>10:00 AM - 07:00 PM</span></li>
+                            <li><span class="day">Saturday</span> <span>10:00 AM - 04:00 PM</span></li>
+                            <li><span class="day">Sunday</span> <span class="closed">Closed</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright-bar">
+                <p>Copyright © <span id="current-year"></span> KWCG. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/function.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // --- DATA SOURCE ---
+        const portfolioItems = [
+             {
+                "id": 1,
+                "title": "Operation Atlas",
+                "categories": ["Website", "Graphics"],
+                "short_description": "A comprehensive project involving modern web design and stunning graphics to create a unique brand identity.",
+                "image_list": "images/works-img-1.jpg",
+                "image_details": "images/project-single.jpg",
+                "date": "10 April 2025",
+                "client": "Creative Solutions Inc.",
+                "website_url": "https://www.domainname.com",
+                "location": "New York, USA",
+                "overview": "Operation Atlas was a ground-up development project aimed at creating a robust online presence for Creative Solutions Inc. We focused on a user-centric design, ensuring a seamless experience across all devices. The project involved creating a full brand identity, from the logo to the website's visual elements, reflecting their innovative spirit.",
+                "summary": "The primary goal was to increase user engagement and provide an intuitive platform for customers. We implemented a custom CMS for easy content management and integrated advanced analytics to track user behavior, resulting in a 40% increase in visitor duration.",
+                "summary_points": [
+                    "Full-stack website development using modern frameworks.",
+                    "Custom graphic design and cohesive branding.",
+                    "Core Web Vitals and SEO optimization.",
+                    "Mobile-first responsive design for all devices."
+                ],
+                "gallery_images": [
+                    "images/post-1.jpg",
+                    "images/post-2.jpg",
+                    "images/post-3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Quantum Quest",
+                "categories": ["Digital", "Website"],
+                "short_description": "A digital marketing campaign paired with a new landing page to boost lead generation and online visibility.",
+                "image_list": "images/works-img-2.jpg",
+                "image_details": "images/project-single.jpg",
+                "date": "25 May 2025",
+                "client": "Tech Innovators",
+                "website_url": "https://www.domainname.com",
+                "location": "San Francisco, USA",
+                "overview": "Quantum Quest required a multi-faceted digital strategy to penetrate a competitive market. We developed targeted ad campaigns, created engaging social media content, and built a high-converting landing page optimized for lead capture.",
+                "summary": "The campaign resulted in a 150% increase in qualified leads within the first quarter. The website's performance was optimized for speed and conversions, achieving a top 5% score in industry benchmarks.",
+                "summary_points": [
+                    "Pay-per-click (PPC) and social media advertising.",
+                    "Content marketing and comprehensive SEO strategy.",
+                    "A/B Tested Landing Page and CRO.",
+                    "Detailed performance analytics and reporting."
+                ],
+                "gallery_images": [
+                    "images/post-1.jpg",
+                    "images/post-2.jpg",
+                    "images/post-3.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Blue Horizon",
+                "categories": ["Digital"],
+                "short_description": "An extensive digital marketing effort to promote environmental awareness and drive donations for a non-profit.",
+                "image_list": "images/works-img-3.jpg",
+                "image_details": "images/project-single.jpg",
+                "date": "12 June 2025",
+                "client": "Ocean Guardians",
+                "website_url": "https://www.domainname.com",
+                "location": "Sydney, Australia",
+                "overview": "This project focused on leveraging digital channels to tell a powerful story and inspire action for the Blue Horizon Initiative. We used emotional video content and influencer collaborations to reach a global audience, highlighting the importance of ocean conservation.",
+                "summary": "Our strategy successfully doubled the organization's online donor base and significantly increased its social media following, creating a vibrant, engaged community of over 200,000 supporters.",
+                "summary_points": [
+                    "Viral video marketing campaign strategy.",
+                    "Influencer outreach and partnerships.",
+                    "Email marketing automation for donor retention.",
+                    "Community management across all social platforms."
+                ],
+                "gallery_images": [
+                    "images/post-1.jpg",
+                    "images/post-2.jpg",
+                    "images/post-3.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Project Alpha",
+                "categories": ["App"],
+                "short_description": "A sleek and intuitive mobile application for productivity, designed for both iOS and Android platforms.",
+                "image_list": "images/works-img-4.jpg",
+                "image_details": "images/project-single.jpg",
+                "date": "30 July 2025",
+                "client": "Future-Proof Apps",
+                "website_url": "https://www.domainname.com",
+                "location": "London, UK",
+                "overview": "Project Alpha is a task management application designed to help users organize their daily lives with maximum efficiency. The core focus was on a clean UI, fast performance, and seamless cloud synchronization across all user devices.",
+                "summary": "The app received over 50,000 downloads in its first month and was featured on the App Store's 'New Apps We Love'. User feedback has been overwhelmingly positive, praising its simplicity and powerful features.",
+                "summary_points": [
+                    "Cross-platform development for iOS and Android.",
+                    "Real-time data synchronization with Firebase.",
+                    "Intuitive UI and UX design focused on user flow.",
+                    "Secure in-app purchase and subscription model."
+                ],
+                "gallery_images": [
+                    "images/post-1.jpg",
+                    "images/post-2.jpg",
+                    "images/post-3.jpg"
+                ]
+            }
+        ];
+
+        // --- DYNAMIC CONTENT LOADER ---
+        function loadProjectDetails() {
+            const params = new URLSearchParams(window.location.search);
+            const projectId = parseInt(params.get('id'));
+
+            if (!projectId) {
+                handleInvalidProject();
+                return;
+            }
+
+            const project = portfolioItems.find(item => item.id === projectId);
+
+            if (!project) {
+                handleInvalidProject();
+                return;
+            }
+
+            // Update page content
+            document.title = `KWCG - ${project.title}`;
+            document.getElementById('project-title-header').textContent = project.title;
+            document.getElementById('project-breadcrumb-category').textContent = project.categories.join(', ');
+            document.getElementById('project-feature-image').src = project.image_details;
+            document.getElementById('project-feature-image').alt = project.title;
+            
+            // Sidebar info
+            document.getElementById('project-date').textContent = project.date;
+            document.getElementById('project-client').textContent = project.client;
+            const websiteLink = document.getElementById('project-website');
+            websiteLink.textContent = project.website_url.replace('https://www.','');
+            websiteLink.href = project.website_url;
+            document.getElementById('project-location').textContent = project.location;
+
+            // Main content
+            document.getElementById('project-overview').textContent = project.overview;
+            document.getElementById('project-summary').textContent = project.summary;
+            
+            const summaryPointsList = document.getElementById('project-summary-points');
+            summaryPointsList.innerHTML = ''; // Clear loading text
+            project.summary_points.forEach(point => {
+                const li = document.createElement('li');
+                li.textContent = point;
+                summaryPointsList.appendChild(li);
+            });
+
+            // Gallery
+            const galleryContainer = document.getElementById('project-gallery-container');
+            galleryContainer.innerHTML = ''; // Clear loading text
+            project.gallery_images.forEach((imgSrc, index) => {
+                const delay = (index * 0.25) + 0.25;
+                const galleryItemHTML = `
+                    <div class="project-gallery-item wow fadeInUp" data-wow-delay="${delay}s">
+                        <a href="${imgSrc}">
+                            <figure class="image-anime">
+                                <img src="${imgSrc}" alt="Project gallery image ${index + 1}">
+                            </figure>
+                        </a>
+                    </div>
+                `;
+                galleryContainer.innerHTML += galleryItemHTML;
+            });
+            
+            // Re-initialize magnificPopup after adding gallery items
+            $('.project-gallery-items').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery:{
+                    enabled:true
+                }
+            });
+        }
+        
+        function handleInvalidProject() {
+            const content = document.querySelector('.page-project-single .container');
+            if(content) {
+                content.innerHTML = `<div class="row"><div class="col-12 text-center"><h2 class="mt-5">Project Not Found</h2><p>The project you are looking for does not exist.</p><a href="portfolio.html" class="btn-default mt-3">Back to Portfolio</a></div></div>`;
+            }
+             document.getElementById('project-title-header').textContent = "Error";
+        }
+
+        loadProjectDetails();
+
+        // --- FOOTER AND UTILITIES ---
+        const yearSpan = document.getElementById('current-year');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+
+        const backToTopButton = document.getElementById('back-to-top-btn');
+        if (backToTopButton) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTopButton.classList.add('show');
+                } else {
+                    backToTopButton.classList.remove('show');
+                }
+            });
+
+            backToTopButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+    });
+    </script>
+</body>
+</html>

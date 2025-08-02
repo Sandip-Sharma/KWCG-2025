@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read the latest articles and insights from KWCG on web development, digital marketing, and technology trends.">
+    <meta name="keywords" content="KWCG, Blog, Articles, Web Development, Digital Marketing, Tech Insights">
+    <meta name="author" content="Awaiken">
+    <title>KWCG - Blog</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo KWCG.png">
+    <link rel="preconnect" href="../../fonts.googleapis.com/index.html">
+    <link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin>
+    <link href="../../fonts.googleapis.com/css2c021.css?family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="css/all.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+     <style>
+        .footer-cta {
+            padding: 80px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+            position: relative;
+        }
+
+        .footer-cta h3 {
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .footer-cta h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .new-main-footer {
+            background-color: #1a2229;
+            color: #adb5bd;
+            padding-top: 80px;
+        }
+
+        .footer-widget .widget-logo {
+            margin-bottom: 25px;
+            max-width: 180px;
+        }
+
+        .footer-widget p {
+            margin-bottom: 20px;
+            color: #adb5bd;
+        }
+
+        .footer-widget .widget-title {
+            color: #fff;
+            font-size: 1.25rem;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        .footer-widget ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-widget ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-widget ul li a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-widget ul li a:hover {
+            color: #fff;
+            padding-left: 5px;
+        }
+
+        .footer-contact-info li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px !important;
+        }
+
+        .footer-contact-info i {
+            margin-right: 15px;
+            color: var(--primary-color);
+            margin-top: 5px;
+        }
+        
+        .footer-contact-info span, .footer-contact-info a {
+             color: #adb5bd;
+        }
+
+
+        .business-hours li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 10px;
+        }
+
+        .business-hours .day {
+            font-weight: 500;
+        }
+
+        .business-hours .closed {
+            color: #ff6b6b;
+            font-weight: 700;
+        }
+
+        .footer-copyright-bar {
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 50px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-to-top-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            text-decoration: none;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .back-to-top-btn.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body class="tt-magic-cursor">
+ 
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/Logo KWCG.png" alt="Loading Logo"></div>
+        </div>
+    </div>
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.svg" alt="Logo">
+                    </a>
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>                                
+                                <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>                               
+                            </ul>
+                        </div>
+                        <div class="header-btn d-inline-flex">
+                            <a href="contact-us.html" class="btn-default">free consultation</a>
+                        </div>
+                        </div>
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3">Blog</h1>
+                        <nav class="wow fadeInUp" data-wow-delay="0.25s">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">blog</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="latest-news our-blog">
+        <div class="container">
+            <div class="row" id="blog-grid">
+                </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="post-pagination wow fadeInUp" data-wow-delay="0.5s">
+                        <ul class="pagination" id="pagination-container">
+                            </ul>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h3>WE HELP YOU ON EVERY STEP OF THE JOURNEY</h3>
+                    <h2>Get Started Today. Boost Your Business With KWCG</h2>
+                    <a href="contact-us.html" class="btn-default">Get Started Today <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="new-main-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <a href="index.html"><img src="images/Logo KWCG.png" alt="KWCG Footer Logo" class="widget-logo" style="height: 100px; width: auto;"></a>
+                        <p>A modern consulting powerhouse built for a rapidly evolving world, where ambition deserves expertise.</p>
+                        <ul class="footer-contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bardhaman, West Bengal, India</span>
+                            </li>
+                             <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@thekwcg.org">info@thekwcg.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Company</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Services</h2>
+                         <ul>
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">Digital Marketing</a></li>
+                            <li><a href="services.html">Mobile App Development</a></li>
+                            <li><a href="services.html">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Socials</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com/thekwcg/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/TheKWCG/" target="_blank">Facebook</a></li>
+                            <li><a href="https://x.com/thekwcg" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/company/thekwcg/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Business Hours</h2>
+                        <ul class="business-hours">
+                            <li><span class="day">Monday - Friday</span> <span>10:00 AM - 07:00 PM</span></li>
+                            <li><span class="day">Saturday</span> <span>10:00 AM - 04:00 PM</span></li>
+                            <li><span class="day">Sunday</span> <span class="closed">Closed</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright-bar">
+                <p>Copyright © <span id="current-year"></span> KWCG. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/function.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const blogGrid = document.getElementById('blog-grid');
+            const paginationContainer = document.getElementById('pagination-container');
+            let allPosts = [];
+            let currentPage = 1;
+            const postsPerPage = 6;
+
+            function displayPosts(page) {
+                currentPage = page;
+                blogGrid.innerHTML = '';
+                const startIndex = (page - 1) * postsPerPage;
+                const endIndex = startIndex + postsPerPage;
+                const paginatedPosts = allPosts.slice(startIndex, endIndex);
+
+                let allPostsHTML = '';
+                paginatedPosts.forEach(post => {
+                    const postHTML = `
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-item wow fadeInUp">
+                                <div class="post-featured-image">
+                                    <figure class="image-anime">
+                                        <a href="blog-single.html?id=${post.id}">
+                                            <img src="${post.image}" alt="${post.title}">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="post-item-body">
+                                    <p><a href="#">${post.date}</a></p>
+                                    <h2><a href="blog-single.html?id=${post.id}">${post.title}</a></h2>                            
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    allPostsHTML += postHTML;
+                });
+                blogGrid.innerHTML = allPostsHTML;
+                updatePaginationButtons();
+            }
+
+            function setupPagination() {
+                const pageCount = Math.ceil(allPosts.length / postsPerPage);
+                paginationContainer.innerHTML = '';
+
+                if (pageCount <= 1) return;
+
+                // Previous Button
+                paginationContainer.innerHTML += `<li class="page-item" id="prev-button"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left-long"></i></a></li>`;
+
+                // Page Numbers
+                for (let i = 1; i <= pageCount; i++) {
+                    paginationContainer.innerHTML += `<li class="page-item"><a class="page-link" href="#">${i}</a></li>`;
+                }
+
+                // Next Button
+                paginationContainer.innerHTML += `<li class="page-item" id="next-button"><a class="page-link" href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>`;
+                
+                addPaginationEventListeners(pageCount);
+            }
+
+            function addPaginationEventListeners(pageCount) {
+                 paginationContainer.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    if (e.target.tagName === 'A') {
+                        const pageText = e.target.textContent;
+                        const parentLi = e.target.parentElement;
+
+                        if (parentLi.id === 'prev-button') {
+                            if (currentPage > 1) displayPosts(currentPage - 1);
+                        } else if (parentLi.id === 'next-button') {
+                            if (currentPage < pageCount) displayPosts(currentPage + 1);
+                        } else if (!isNaN(pageText)) {
+                            displayPosts(parseInt(pageText));
+                        }
+                    }
+                });
+            }
+
+            function updatePaginationButtons() {
+                 const pageCount = Math.ceil(allPosts.length / postsPerPage);
+                 document.getElementById('prev-button')?.classList.toggle('disabled', currentPage === 1);
+                 document.getElementById('next-button')?.classList.toggle('disabled', currentPage === pageCount);
+                 
+                 const pageLinks = paginationContainer.querySelectorAll('.page-item:not(#prev-button):not(#next-button)');
+                 pageLinks.forEach(link => {
+                     if(parseInt(link.textContent) === currentPage) {
+                         link.classList.add('active');
+                     } else {
+                         link.classList.remove('active');
+                     }
+                 });
+            }
+
+
+            if (blogGrid) {
+                fetch('blogs.json')
+                    .then(response => response.json())
+                    .then(posts => {
+                        allPosts = posts;
+                        if (allPosts.length === 0) {
+                            blogGrid.innerHTML = '<p class="text-center col-12">No blog posts found.</p>';
+                            return;
+                        }
+                        setupPagination();
+                        displayPosts(1);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching blog posts:', error);
+                        blogGrid.innerHTML = '<p class="text-center col-12">Error loading blog posts. Please try again later.</p>';
+                    });
+            }
+
+            const yearSpan = document.getElementById('current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+            
+            const backToTopButton = document.getElementById('back-to-top-btn');
+            if (backToTopButton) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 300) {
+                        backToTopButton.classList.add('show');
+                    } else {
+                        backToTopButton.classList.remove('show');
+                    }
+                });
+
+                backToTopButton.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

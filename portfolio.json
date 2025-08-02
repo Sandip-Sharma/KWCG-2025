@@ -1,0 +1,152 @@
+[
+    {
+      "id": 1,
+      "title": "Operation Atlas",
+      "categories": ["website", "graphics"],
+      "short_description": "A comprehensive project involving modern web design and stunning graphics to create a unique brand identity.",
+      "image_list": "images/works-img-1.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "10 April 2024",
+      "client": "Creative Solutions Inc.",
+      "website_url": "https://www.domainname.com",
+      "location": "New York, USA",
+      "overview": "Operation Atlas was a ground-up development project aimed at creating a robust online presence. We focused on a user-centric design, ensuring a seamless experience across all devices. The project involved creating a full brand identity, from the logo to the website's visual elements.",
+      "summary": "The primary goal was to increase user engagement and provide an intuitive platform for customers. We implemented a custom CMS for easy content management and integrated advanced analytics to track user behavior.",
+      "summary_points": [
+        "Full-stack website development using modern frameworks.",
+        "Custom graphic design and branding.",
+        "SEO optimization for improved search engine ranking.",
+        "Mobile-first responsive design."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quantum Quest",
+      "categories": ["digital", "website"],
+      "short_description": "A digital marketing campaign paired with a new landing page to boost lead generation and online visibility.",
+      "image_list": "images/works-img-2.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "25 May 2024",
+      "client": "Tech Innovators",
+      "website_url": "https://www.domainname.com",
+      "location": "San Francisco, USA",
+      "overview": "Quantum Quest required a multi-faceted digital strategy to penetrate a competitive market. We developed targeted ad campaigns, created engaging social media content, and built a high-converting landing page.",
+      "summary": "The campaign resulted in a 150% increase in qualified leads within the first quarter. The website's performance was optimized for speed and conversions.",
+      "summary_points": [
+        "Pay-per-click (PPC) and social media advertising.",
+        "Content marketing and SEO strategy.",
+        "Conversion Rate Optimization (CRO).",
+        "Detailed performance analytics and reporting."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blue Horizon Initiative",
+      "categories": ["digital"],
+      "short_description": "An extensive digital marketing effort to promote environmental awareness and drive donations for a non-profit.",
+      "image_list": "images/works-img-3.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "12 June 2024",
+      "client": "Ocean Guardians",
+      "website_url": "https://www.domainname.com",
+      "location": "Sydney, Australia",
+      "overview": "This project focused on leveraging digital channels to tell a powerful story and inspire action. We used emotional video content and influencer collaborations to reach a global audience.",
+      "summary": "Our strategy successfully doubled the organization's online donor base and significantly increased its social media following, creating a vibrant community of supporters.",
+      "summary_points": [
+        "Viral video marketing campaign.",
+        "Influencer outreach and partnerships.",
+        "Email marketing automation for donor retention.",
+        "Community management across social platforms."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Project Alpha",
+      "categories": ["app"],
+      "short_description": "A sleek and intuitive mobile application for productivity, designed for both iOS and Android platforms.",
+      "image_list": "images/works-img-4.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "30 July 2024",
+      "client": "Future-Proof Apps",
+      "website_url": "https://www.domainname.com",
+      "location": "London, UK",
+      "overview": "Project Alpha is a task management application designed to help users organize their daily lives. The core focus was on a clean UI, fast performance, and seamless cloud synchronization.",
+      "summary": "The app received over 50,000 downloads in its first month and was featured on the App Store. User feedback has been overwhelmingly positive, praising its simplicity and power.",
+      "summary_points": [
+        "Cross-platform development for iOS and Android.",
+        "Real-time data synchronization with Firebase.",
+        "Intuitive UI and UX design.",
+        "In-app purchase and subscription model."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Terra Nova",
+      "categories": ["app"],
+      "short_description": "An augmented reality mobile app for interactive learning, bringing educational content to life.",
+      "image_list": "images/works-img-3.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "15 August 2024",
+      "client": "EduVerse",
+      "website_url": "https://www.domainname.com",
+      "location": "Tokyo, Japan",
+      "overview": "Terra Nova blends the physical and digital worlds to create immersive educational experiences. Using a smartphone's camera, students can interact with 3D models and simulations.",
+      "summary": "The app was successfully piloted in several schools, leading to a measurable increase in student engagement and knowledge retention in science subjects.",
+      "summary_points": [
+        "Augmented Reality (AR) feature development.",
+        "3D modeling and animation integration.",
+        "CMS for educators.",
+        "Performance optimization for various devices."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Infinity Initiative",
+      "categories": ["graphics"],
+      "short_description": "A complete rebranding project including logo design, marketing materials, and a comprehensive brand style guide.",
+      "image_list": "images/works-img-4.jpg",
+      "image_details": "images/project-single.jpg",
+      "date": "05 September 2024",
+      "client": "Legacy Corp",
+      "website_url": "https://www.domainname.com",
+      "location": "Berlin, Germany",
+      "overview": "The Infinity Initiative was a strategic rebranding to modernize an established company's image. We conducted market research to develop a visual identity that resonates with a new generation of customers.",
+      "summary": "The new branding was rolled out across all digital and print platforms, receiving positive feedback for its fresh, modern, and professional look.",
+      "summary_points": [
+        "In-depth brand strategy and market analysis.",
+        "Logo and visual identity design.",
+        "Creation of print and digital marketing collateral.",
+        "Development of a detailed brand guidelines document."
+      ],
+      "gallery_images": [
+        "images/post-1.jpg",
+        "images/post-2.jpg",
+        "images/post-3.jpg"
+      ]
+    }
+  ]
